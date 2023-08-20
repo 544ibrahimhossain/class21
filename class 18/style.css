@@ -1,0 +1,364 @@
+
+
+/* Style the header containing the logo and menu */
+header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 20px;
+ background-color: white;
+}
+
+/* Style the logo */
+.logo img {
+ height: 50px; /* Adjust the height as needed */
+}
+
+/* Style the menu */
+.menu ul {
+ list-style: none;
+ display: flex;
+}
+
+.menu li {
+ margin-right: 20px; /* Add some space between menu items */
+}
+
+.menu li:last-child {
+ margin-right: 0; /* Remove right margin from the last menu item */
+}
+
+/* Style the menu links */
+.menu a {
+ text-decoration: none;
+ color: #333;
+ font-size: 16px;
+ font-weight: bold;
+ /* Add other styles as needed, e.g., padding, background, etc. */
+}
+
+/* Optional: Add some hover effect on menu links */
+.menu a:hover {
+ color: #ff0000; /* Change to your desired hover color */
+}
+
+.banner{
+ background: url(https://i.ibb.co/sqHYwv5/kobu-agency-IWLR561-Yb-MY-unsplash.jpg);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding: 300px 0;
+ text-align: center;
+
+}
+
+
+.banner p{
+ text-align: center;
+ color:white;
+ font-size: 20px;
+}
+.banner h2{
+ text-align: center;
+ color:white;
+ font-size: 50px;
+ font-weight: bold;
+}
+.btn1{
+background-color:white;
+padding: 20px;
+text-decoration: none;
+color:black;
+margin-right: 30px;
+border-radius: 10px;
+}
+
+.btn2{
+ background-color:white;
+ padding: 20px;
+ text-decoration: none;
+ color:black;
+ margin-right: 30px;
+ border-radius: 10px;
+ }
+
+.btn1:hover{
+ background-color:rgb(173, 128, 43);
+}
+.btn2:hover{
+ background-color:rgb(173, 128, 43);
+}
+
+.htag{
+ text-align: right;
+}
+
+/* paricing tablee */
+.pricing-table-section{
+ background: #f7f9ff;
+ padding: 50px;
+
+}
+.section-title h2 {
+ font-size: 56px;
+ font-weight: 500;
+ margin-bottom: 30px;
+}
+.pricing-tables {
+ margin-top: 80px;
+}
+.pricing-table-item{
+ width: 32%;
+ margin-right: 2%;
+ background: #fff;
+ box-shadow: 3px 4px 30px 0 rgba(98, 120, 223,.1);
+}
+.pricing-table-item:nth-child(3){
+ margin-right: 0;
+}
+
+.p-heading{
+ padding: 30px;
+ border-bottom: 1px solid #ddd;
+ transition: .3s;
+}
+.p-content{
+ padding: 30px;
+}
+
+.p-heading h4 {
+ font-size: 25px;
+ font-weight: 500;
+}
+.p-heading h1 {
+ margin: 42px 0;
+ font-size: 56px;
+}
+.p-heading h1 span {
+ font-size: 20px;
+}
+.p-heading h5 {
+ font-weight: 500;
+ font-size: 21px;
+ margin-bottom: 22px;
+}
+.p-heading p {
+ font-size: 20px;
+ line-height: 1.5em;
+}
+
+.p-content ul{
+ list-style: none;
+}
+.p-content ul li {
+ margin: 25px 0;
+ color: #767676;
+ font-size: 22px;
+}
+.p-content ul li span {
+ display: inline-block;
+ font-size: 35px;
+ color: #6278df;
+ width: 57px;
+}
+.p-button{
+ margin-top: 60px;
+}
+.p-button .default-btn{
+ box-shadow: 3px 4px 30px 0 rgba(98, 120, 223,.3);
+}
+
+
+.pricing-table-item:hover .p-heading{
+ background: #6278df;
+ color: #fff;
+}
+
+.left{
+ float: left;
+}
+
+
+
+.default-btn{
+ background-color:white;
+ padding: 20px;
+ text-decoration: none;
+ color:black;
+ margin-right: 30px;
+ border-radius: 10px;
+}
+
+.text{
+ text-align: center;
+ color: #333;
+ font-weight: 500;
+ margin-top: 20px;
+ 
+}
+
+
+.teammebers{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 40px;
+ 
+
+
+ 
+}
+
+.member{
+ text-align: center;
+ margin: 0 20px;
+ flex-direction: row;
+ display: flex;
+ line-height: 10px;
+
+}
+
+
+
+
+.picture img{
+ width: 150px;
+ height: 150px;
+ border-radius: 5px;
+ object-fit: cover;
+margin: 20px 50px;
+
+
+}
+
+
+.picture{
+ 
+ margin: 0 12px;
+border: double #e79230;
+ 
+}
+
+
+
+/* fromtag */
+.from-section{
+ padding: 50px 0;
+ background-color:#f5f5f5;
+}
+.button{
+ padding:10px 30px;
+ background-color: olive;
+ border-radius: 5px;
+ color: #f0f0f0;
+ margin-top: 60%;
+ text-decoration: none;
+}
+
+.buton{
+ margin-top: 4%;
+}
+
+.buton :hover{
+ background-color:red;
+}
+
+
+.input{
+ width: 50%;
+ margin-top: 20%;
+}
+
+
+.p2tag h2{
+ font-size: 40px;
+ margin-top: 30px;
+}
+/* sitebar tag */
+
+.about-section{
+ padding: 100px 0;
+ background-color: #fff;
+}
+
+.Chosetag{
+ text-align: center;
+ font-size: 50px;
+ color: #333;
+ font-weight: 600;
+ margin-top: -98px;
+}
+
+
+.left-img img{
+ width: 113%;
+ height: 80%;
+}
+
+.rigth-text{
+ width: 98%;
+ margin: 0 auto;
+ margin-left: 61px;
+ color: #756755;
+}
+/* hhhhhh */
+.contract-section{
+ padding: 120px 0;
+ background-color: #ecdddd;
+}
+
+.conratsus h1{
+ text-align: center;
+}
+
+.from{
+ text-align: center;
+}
+.email{
+ width: 44%;border: 1px solid darkgreen;
+margin-top: 20px;
+}
+.name{
+ margin-top: 10px;
+ width: 22%;
+}
+
+.phone{
+ margin-top: 10px;
+ width: 22%;
+}
+
+
+.textarea{
+ margin-top: 20px;
+ width: 700px;
+ height: 200px;
+}
+
+
+.btns{
+ margin-top: 20px;
+}
+.sendbutton{
+ background-color: olive;
+ padding: 20px 10%;
+ border-radius: 10px;
+ text-decoration: none;
+ color: #f5f5f5;
+ margin-top: -20%;
+ box-shadow: 1px 2px 5px silver;
+}
+
+.textares{
+ width;
+}
+
+
+.foter-section{
+ text-align: center;
+ font-size: 20px;
+ color: #333;
+ background-color:#ecdddd;
+
+
+}

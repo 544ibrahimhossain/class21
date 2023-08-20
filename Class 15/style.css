@@ -1,0 +1,316 @@
+*{
+ padding: 0;
+ margin: 0;
+}
+.container{
+ width: 1200px;
+ margin: auto;
+}
+img{
+ max-width: 100%;
+}
+.clear::before{
+ content: "";
+ display: block;
+ clear: both;
+}
+
+
+
+/* header-sectione */
+
+.header{
+ background: #22C3A3;
+ padding: 10px;
+ overflow: hidden;
+
+}
+.header .logomenu{
+}
+.header .logomenu .logo{
+ float: left;
+ float: left;
+ width: 25%;
+}
+.header .logomenu .logo h2 {
+font-size: 34px;
+color: #fff;
+text-transform: capitalize;
+ line-height: 50px;
+}
+.header .logomenu .logo h2 span{
+ text-transform: uppercase;
+}
+/* menu */
+.header .logomenu .menu{
+ float: left;
+ width: 75%;
+ text-align: right;
+
+}
+.header .logomenu .menu ul{}
+.header .logomenu .menu ul li {
+ list-style: none;
+ display: inline-block;
+}
+.header .logomenu .menu ul li a{
+ display: block;
+ font-size: 20px;
+ color: #f3eeee;
+padding: 15px 20px;
+ margin-right: 5px;
+ text-decoration: none;
+ transition: .3s;
+
+
+
+}
+.header .logomenu .menu ul li:hover a{
+ color: #ddd;
+}
+
+.slider{
+ background: url("https://i.ibb.co/RpBgbKw/header-bg01.jpg") no-repeat center;
+ background-size: cover;
+ padding: 200px 0px;
+ overflow: hidden;
+background-attachment: fixed;
+}
+.slider .sliderin{}
+.slider .sliderin .slidertitle{
+ width: 500px;
+ margin: auto;
+ text-align: center;
+}
+.slider .sliderin .slidertitle h2 {
+color: #fff;
+font-size: 40px;
+text-transform: uppercase;
+padding: 20px 0px;
+}
+.slider .sliderin .slidertitle p {
+font-size: 18px;
+ color: #fff;
+ margin-bottom: 10px;
+}
+.slider .sliderin .slidertitle a {
+display: inline-block;
+text-decoration: none;
+color: #fff;
+border: 2px solid #fff;
+padding: 10px 20px;
+border-radius: 5px;
+font-size: 20px;
+ position: relative;
+ z-index: 1;
+}
+.slider .sliderin .slidertitle a::before {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ background: #04352b;
+ width: 0;
+ height: 100%;
+ border-radius: 5px;
+ transition: .3s;
+ z-index: -1;
+
+}
+
+.slider .sliderin .slidertitle a:hover::before{
+ width: 100%;
+
+}
+
+/* service section */
+
+.service{
+ border-bottom: 3px solid #0BBF9A;
+ overflow: hidden;
+ font-family: 'Work Sans', sans-serif;
+}
+.service .servicein{}
+.service .servicein {
+ 
+}
+.service .servicein {
+
+}
+.service .servicein .servicetitle{
+ text-align: center;
+}
+.service .servicein .servicetitle h2{
+ color: #000;
+font-size: 40px;
+text-transform: uppercase;
+padding: 20px 0px;
+}
+.service .servicein .servicetitle p{
+ font-size: 18px;
+ color: #625f5f;
+ margin-bottom: 10px;
+}
+.service .servicein .servicebox{}
+.service .servicein .servicebox .serviceboxin {
+float: left;
+width: 22%;
+margin: 1%;
+text-align: center;
+padding: 20px 0px;
+box-sizing: border-box;
+}
+.service .servicein .servicebox .serviceboxin:last-child{
+ margin-right: 0px;
+}
+
+.service .servicein .servicebox .serviceboxin span {
+font-size: 30px;
+color: #0BBF9A;
+padding: 13px 0px;
+display: inline-block;
+}
+.service .servicein .servicebox .serviceboxin h4 {
+font-size: 20px;
+padding: 10px;
+}
+.service .servicein .servicebox .serviceboxin p {
+font-size: 17px;
+color: #625f5f;
+}
+/* about section */
+.about{
+ overflow: hidden;
+ padding: 40px 0px;
+ font-family: 'Work Sans', sans-serif;
+}
+.about .aboutin{}
+.about .aboutin .abouttitle{
+ text-align: center;
+}
+.about .aboutin .abouttitle h2{
+ color: #000;
+font-size: 40px;
+text-transform: uppercase;
+padding: 20px 0px;
+}
+.about .aboutin .abouttitle p{
+ font-size: 18px;
+ color: #625f5f;
+ margin-bottom: 40px;
+}
+.about .aboutin .aboutdetail{}
+.about .aboutin .aboutdetail .aboutimg{
+ float: left;
+ width: 45%;
+}
+.about .aboutin .aboutdetail .aboutimg img{
+ width: 100%;
+ height: 400px;
+}
+.about .aboutin .aboutdetail .aboutline{
+ float: right;
+ width: 50%;
+}
+
+.about .aboutin .aboutdetail .aboutline .abouthead{}
+.about .aboutin .aboutdetail .aboutline .abouthead h3 {
+font-size: 22px;
+padding: 10px 0px;
+text-transform: capitalize;
+}
+.about .aboutin .aboutdetail .aboutline .abouthead p {
+font-size: 18px;
+color: #999292;
+}
+
+/* contact-us */
+
+.contactus{
+ padding: 40px 0px;
+ overflow: hidden;
+ background: #fcf7f7;
+ font-family: 'Work Sans', sans-serif;
+}
+.contactus .contactin{}
+.contactus .contactin .contacttitle{
+ text-align: center;
+}
+.contactus .contactin .contacttitle h2{
+ color: #000;
+font-size: 40px;
+text-transform: uppercase;
+padding: 20px 0px;
+}
+
+.contactus .contactin .contacttitle p{
+ font-size: 18px;
+ color: #999292;
+ margin-bottom: 40px;
+}
+
+.contactus .contactin .contactbox{}
+.contactus .contactin .contactbox .contactboxin{
+ float: left;
+ width: 30%;
+ margin: 1%;
+ box-sizing: border-box;
+ text-align: center;
+
+}
+.contactus .contactin .contactbox .contactboxin span {
+color: #0BBF9A;
+display: inline-block;
+padding: 12px 0px;
+font-size: 25px;
+}
+.contactus .contactin .contactbox .contactboxin p {
+font-size: 18px;
+line-height: 30px;
+ color: #999292;
+
+}
+
+/* footermenu */
+.footermenu{
+ background: #0BBF9A;
+ padding: 20px;
+ font-family: 'Work Sans', sans-serif;
+}
+.footermenu .footermenuin{
+ text-align: center;
+}
+.footermenu .footermenuin ul{}
+.footermenu .footermenuin ul li {
+ list-style: none;
+ display: inline-block;
+}
+.footermenu .footermenuin ul li a{
+ display: block;
+ text-decoration: none;
+ text-align: center;
+
+}
+.footermenu .footermenuin ul li a i{     width: 50px;
+ color: #fff;
+ font-size: 30px;
+       
+}
+/* footer section */
+.footer{
+ padding: 10px 0px;
+ background: #4e4c4c;
+ font-family: 'Work Sans', sans-serif;
+}
+.footer .footerin{
+ text-align: center;
+}
+.footer .footerin p{
+ color:black;
+ font-size: 18px;
+ color: #fff;
+}
+
+.footermenuin :hover{
+ background-color:black;
+}

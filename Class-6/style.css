@@ -1,0 +1,72 @@
+.tt h2 {
+    background-color: rgb(11, 11, 130);
+    text-align: center;
+}
+.tt .mim {
+    background-color: rgb(45, 61, 45);
+    color: whitesmoke;
+    height: 20px;
+    text-align: center;
+    margin-top: -20px;
+    
+    
+}
+.tt .r {
+    margin-top: 15px;
+   color: darkgray;
+   background: black;
+   text-align: center;
+   font-size: 20px;
+   padding: 10px;
+}
+.tt .uu {
+    
+    height: 100%;
+    
+    text-align: center;
+   
+    
+}
+img{
+    width: 90%;
+    
+}
+.first {
+    
+    text-align: center;
+    
+    
+}
+.first .kud {
+    font-size: 60px;
+    background-color:gray;
+    display: block;
+}
+.contact{
+    text-align: center;
+}
+.contact .karim{
+    background-color:orangered;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.ritu .reba{
+   
+    margin-left: -180px;
+    color: blue;
+}
+.kago{
+    background-color:orange;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+.kago .sb {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.last{
+    text-align: center;
+    background: #000;
+    color: white;
+}

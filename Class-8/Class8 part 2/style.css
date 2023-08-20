@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    background-color:orange;
+}
+
+.Full-websitext{
+    text-align: center;
+    color: aliceblue;
+    width: 1024px;
+    margin: 20px auto;
+}
+h2{
+    text-align: center;
+    background-color:rgb(217, 128, 250);
+}
+p{
+    background-color:rgb(238, 90, 36);
+    text-align: center;
+}
+.banner img{
+    max-width: 100%;
+}

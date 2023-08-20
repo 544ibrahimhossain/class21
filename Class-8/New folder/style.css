@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.all-secion{
+    width: 1000px;
+    margin: 0 auto;
+}
+.bb{
+  background-color: #34495E;
+}
+.header img{
+    width: 100%;
+    margin-top: -8px;
+}
+/* secton */
+.section{
+background-color: #0D6EFD;
+}
+.first {
+    text-align: center;
+    color: wheat;
+    background-color: #E67E22;
+    height: 185px;
+    width: 417px;
+    border-radius: 0px 43px 43px 0px;
+    margin: 0 15%;
+    box-shadow: rgba(0, 0, 0, 0.97) 0px 5px 15px;
+
+  }
+  .second {
+    text-align: center;
+    color: white;
+    height: 185px;
+    width: 417px;
+    background-color: #1ABC9C;
+    margin-left: 45%;
+    border-radius: 43px 0px 0px 43px;
+    margin-top: 4%;
+    box-shadow: rgba(0, 0, 0, 0.97) 0px 5px 15px;
+  }
+
+  /* flag secton */
+  .nationla-flag{
+    background-color:#4D687A;
+    
+
+  }
+
+  /* ban */
+
+  .lal{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  .ban {
+    height: 143px;
+    width: 313px;
+    background-color: green;
+    text-align: center;
+    margin: 0 auto;
+    padding: 22px;
+    box-shadow: rgba(0, 0, 0, 0.97) 0px 5px 15px;
+    display: inline-block;
+  }
+
+  /* inland */
+  .inland{
+    height: 143px;
+    width: 313px;
+    background-color: rgb(252, 252, 252);
+    text-align: center;
+    margin: 0 auto;
+    padding: 22px;
+    box-shadow: rgba(0, 0, 0, 0.97) 0px 5px 15px;
+    display: inline-block;
+  }
+  .lomba {
+    height: 143px;
+    width: 17px;
+    background-color: red;
+    margin: -22px 214px;
+  }
+  .sefta {
+    height: 17px;
+    width: 313px;
+    background-color: red;
+    margin: -65px -22px;
+  }
+/* japan */
+.sada{
+    height: 143px;
+    width: 313px;
+    background-color: rgb(246, 249, 246);
+    text-align: center;
+    margin: 0 auto;
+    padding: 22px;
+    box-shadow: rgba(0, 0, 0, 0.97) 0px 5px 15px;
+    display: inline-block;
+
+}
+/* germany */
+.garmany{
+    height: 143px;
+    width: 313px;
+    background-color: rgb(246, 249, 246);
+    text-align: center;
+    margin: 0 auto;
+    padding: 22px;
+    box-shadow: rgba(0, 0, 0, 0.97) 0px 5px 15px;
+    display: inline-block;
+
+}
+.kala {
+    height: 50px;
+    width: 313px;
+    background-color: rgb(10, 9, 9);
+    margin: -22px -22px;
+    
+
+}
+  .lala {
+    height: 50px;
+    width: 313px;
+    background-color: rgb(240, 0, 0);
+    margin: 22px -22px;
+  }
+  .holud {
+    height: 43px;
+    width: 313px;
+    background-color: yellow;
+    margin: -23px -22px;
+  }
+
+  /* footer */
+  .bgc{
+    background-color: #198754;
+  }

@@ -1,0 +1,33 @@
+.Flag{
+    height: 250px;
+    width: 500px;
+    background-color: green;
+    text-align: center;
+    padding: 20px 15px;
+    margin-top: 30px;
+}
+.red{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+.anda{
+    height: 100px;
+    width: 250px;
+    background-color: rgb(225, 155, 33);
+    border: 100px;
+    border: 5px solid #ddd;
+    text-align: center;
+    border-radius: 50%;
+    padding: 20px;
+
+}
+.kusum{
+    height: 100px;
+    width: 100px;
+    background-color:rgb(253, 71, 71);
+    border-radius: 50%;
+    display: inline-block;
+}

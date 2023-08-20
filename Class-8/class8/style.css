@@ -1,0 +1,137 @@
+h1{
+    text-align: center;
+    background-color:gray;
+}
+.main-div img{
+    min-height: 100%;
+    width: 100%;
+    margin-top: -25px;
+}
+.service{
+    height: 250px;
+    width: 400px;
+    background-color:orange;
+    text-align: center;
+    border-radius: 0 50px 50px 0;
+    margin-left: 70px;
+    margin: 20px;
+    padding: 20px;
+}
+.services{
+    height: 250px;
+    width: 400px;
+    background-color:orangered;
+    text-align: center;
+    border-radius: 50px 0 0 50px;
+    margin-left: 40%;
+    padding: 20px;
+    
+
+}
+
+h3{
+    text-align: center;
+    background-color: grey;
+    width: 100%;
+    padding: 10px;
+    margin-right: 50px;
+    font-size: 30px;
+}
+.Flag{
+    height: 250px;
+    width: 500px;
+    background-color: green;
+    text-align: center;
+    padding: 20px 15px;
+    margin-top: 30px;
+    text-align: center;
+}
+.red{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+.falgsection{
+    margin-left: 30%;
+}
+.Englad{
+    height: 250px;
+    width: 500px;
+    background-color:wheat;
+    text-align: center;
+    padding: 20px 15px;
+    margin-top: 30px;
+    text-align: center;
+    display: inline-block;
+}
+.red{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: -20px;
+    
+
+}
+.eeeenn{
+    display: inline-block;
+    margin-left: 29%;
+}
+
+/* german */
+.one{
+    height: 100px;
+    width: 500px;
+    background-color:black;
+    margin-bottom: -20px;
+}
+.two{
+    height: 100px;
+    width: 500px;
+    background-color:red;
+    margin-bottom: -20px
+}
+.three{
+    height: 100px;
+    width: 500px;
+    background-color:yellow;
+
+}
+.Germana{
+    margin-left: 30%;
+}
+h{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 30%;
+    font-size: 50px;
+    margin-bottom: -10px;
+}
+.englad2{
+    width: 500px;
+    height: 250px;
+    background-color: green;
+    margin-right: 29px auto;
+    margin-left: 30%;
+}
+.div{
+    width: 20px;
+    height: 250px;
+    background-color:red;
+    margin-left: auto;
+    margin-right: 80px;
+    
+}
+
+.rdiv{
+    width: 500px;
+    height: 20px;
+    background-color:red;
+    margin-top: -100px;
+
+    
+    
+}
